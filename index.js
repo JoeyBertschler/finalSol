@@ -10,7 +10,7 @@ server.use(cors())
 
 //endpoints
 
-server.get('api/hello', (req, res) => {
+server.get('/api/hello', (req, res) => {
     res.json({message: 'api is working'})
 })
 
